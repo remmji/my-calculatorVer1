@@ -1,9 +1,8 @@
 *{
 box-sizing: border-box;
 }
-
 .wraper {
-margin-top : 50px;
+margin-top : 20px;
 }
 
 .container {
@@ -13,15 +12,31 @@ margin-top : 50px;
     gap:1px;
     margin:1px;
 }
-
-.input{
+.prev {
+    width: 400px;
+    height: 80px;
+    /* border: 1px solid #9aa93e; */
+    border-radius: 10px 10px 00px 00px;
+    background-color: #032e0a;
+    font-size: 26px;
+    text-align: right;
+    padding-top :1.5rem;
+    color : white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
+.current{
     width:400px;
-    height:120px;
-    border: 1px solid #9aa93e;
-    border-radius: 10px 10px 10px 10px;
-    background-color: #dbffa4;
+    height:80px;
+    /* border: 1px solid #9aa93e; */
+    border-radius: 0px 00px 10px 10px;
+    background-color: #032e0a;
     font-size: 26px;
     text-align:right;
+    padding-top: 1.5rem;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
     
 }
 .box {
@@ -34,7 +49,7 @@ margin-top : 50px;
 width:200px;
 }
 .box.clear{
-width:200px;
+width:300px;
 }
 
 .btn {
@@ -51,12 +66,11 @@ width:200px;
 .btn:hover {
     box-shadow: 7px 5px 30px -14px #9bff04;
 }
-.btn.equal {
+.btn.equal,
+.btn.clear {
     background-color:#FFA351FF;
 }
-.btn.clear {
-    background-color: #FFA351FF;
-}
+
 .btn.fun{
     background-color:peachpuff ;
 }
