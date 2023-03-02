@@ -10,7 +10,6 @@ export const ACTIONS = {
   EVA: 'eva'
 }
 
-
 function App() {
   const [{currentOperand,previousOperand,operation},dispatch] = useReducer(reducer,{})
   

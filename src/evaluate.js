@@ -5,7 +5,6 @@ function evaluate({currentOperand,previousOperand,operation}){
 
   if (isNaN(prev) || isNaN(curr)) return ''
    let computation = '';
-
    switch (operation){
     case '+':
       computation = prev + curr
